@@ -1,6 +1,12 @@
 server:
   port: 8090
 spring:
+    application:
+      name: SpringBootAdmin
+    security:
+        user:
+          name: admin
+          password: 123456
     datasource:
         name: test
         url: jdbc:mysql://127.0.0.1:3306/test
